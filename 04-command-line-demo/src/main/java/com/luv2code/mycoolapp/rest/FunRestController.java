@@ -26,7 +26,7 @@ public class FunRestController {
 		return "Today is your lucky day.";
 		}
 
-	@GetMapping("/avventure")
+	@GetMapping("/avventura")
 	public String getDailyFortune() {
 		
 		return "Git e Heroku sono fantastici !!!!!";
